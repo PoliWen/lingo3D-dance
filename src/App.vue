@@ -24,11 +24,11 @@
     </div>
 </template>
 <script setup lang="ts">
-import { World, Model,OrbitCamera } from "lingo3d-vue";
-import { ref } from "vue";
-const ani = ref("idle");
+import { World, Model,OrbitCamera } from "lingo3d-vue"
+import { ref } from "vue"
+const ani = ref("idle")
 
-const onClick = str => {
+const onClick = (str:string) => {
     ani.value = str;
 };
 </script>
