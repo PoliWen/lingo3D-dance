@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "lingo3d-vue": "latest",
+    "sass": "^1.51.0",
     "vue": "^3.2.25"
   },
   "devDependencies": {
